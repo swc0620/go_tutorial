@@ -20,7 +20,7 @@ func main() {
 	fmt.Println(s.name)
 
 	sp := &s
-	fmt.Println(sp.age)
+	fmt.Println(sp.age) // pointer is automatically dereferenced
 
 	sp.age = 51
 	fmt.Println(sp.age)
